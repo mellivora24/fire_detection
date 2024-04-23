@@ -1,2 +1,2 @@
 # fire_detection
-## 2 Đứa tải xuống đi
+## Không mô tả gì hết :v
