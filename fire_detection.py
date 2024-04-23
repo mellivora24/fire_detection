@@ -3,7 +3,7 @@ from PyQt5 import QtCore, QtGui
 from ultralytics import YOLO
 
 class Fire_smoke_detection(QtCore.QThread):
-    model = YOLO('logs/best.pt')
+    model = YOLO('predict.pt')
     cam = cv2.VideoCapture(0)
     color_imageUpdate = QtCore.pyqtSignal(QtGui.QImage)
     gray_imageUpdate = QtCore.pyqtSignal(QtGui.QImage)
